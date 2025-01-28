@@ -63,7 +63,7 @@ cursor: pointer;
 margin: 15px 0;
 }
 
- .btn-contato button:hover{
+  button:hover{
 box-shadow: 0px 0px 8px #00ff08;
 transform: scale(1.05);
 }
@@ -153,4 +153,100 @@ animation: flutuar 2s ease-in-out infinite alternate;
   100% {
     top: 30px
   }
+}
+
+/* Sobre mim */
+section.sobre{
+padding: 380px 4%;
+}
+.img-sobre img{
+  width: 310px;
+  height: 580px;
+  border-radius: 20px;
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 200px;
+}
+.sobre .sobre-min{
+  color: #000000;
+}
+
+.sobre .sobre-min h2{
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.sobre .sobre-min h2 span{
+  display: block;
+}
+
+.sobre .sobre-min p{
+margin: 20px 0;
+text-align: justify;
+}
+
+.sobre .sobre-min .btn-social button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #00ff08;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 15px;
+  transition: .2s;
+}
+
+/*Especialidade*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hard Skills*/
+section.hardskills{
+  padding: 200px 4%;
+  }
+.hardskills .tecnologias img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.hardskills h2{
+  text-align: center;
+  margin: 100px 0;
+
+}
+
+section.hardskills .flex{
+  justify-content: center;
+  gap: 100px;
+}
+
+
+
+
+
+
+/* Projetos*/
+
+section.projetos{
+  padding: 200px 4%;
+}
+
+.projetos h2{
+  text-align: center;
 }

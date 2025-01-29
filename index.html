@@ -21,26 +21,26 @@
         <div class="interface">
             <div class="logo">
                 <a href="#">
-                    <p>WL - Port</p>
+                    <img src="./assets/Imagens logo/Logo1.webp" alt="">
                 </a>
             </div>
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
                 </ul>
             </nav>
             <div class="btn-contato">
-                <a href="#"><button>Contato</button></a>
+                <a href="#contato"><button>Contato</button></a>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section class="topo-do-site" id="inicio">
             <div class="interface">
                 <div class="flex">
                     <div class="text-topo-site">
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </section>
-        <section class="sobre">
+        <section class="sobre" id="sobre"> 
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -68,8 +68,7 @@
                     <div class="sobre-min">
                         <h2>MUITO PRAZER, 
                             <span>Sou Anderson De Jesus.</span></h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, corrupti pariatur, quo voluptatum deleniti deserunt in quos reiciendis repudiandae corporis atque modi. Tempore neque voluptas eligendi similique suscipit laborum dolore.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero harum nobis esse neque architecto qui culpa sed ullam facere enim aliquid necessitatibus, quod dicta nihil, iste perferendis cum alias.</p>
+                            <p>Olá, meu nome é Anderson De Jesus, nascido no estado de São Paulo. Sou estudante de Análise e Desenvolvimento de Sistemas na FIAP (Faculdade de Informática e Administração Paulista) e, em 2023, concluí o curso técnico em Mecânica Industrial integrado ao Ensino Médio no IFSP (Instituto Federal de São Paulo). Atualmente, atuo como desenvolvedora Back-end com foco em Java e estou expandindo minhas habilidades para a área de Infraestrutura e DevOps, com conhecimentos em ferramentas como Terraform, Microsoft Azure (Cloud), Docker, entre outras. Ao longo da minha trajetória, tive a oportunidade de desenvolver projetos relevantes para empresas renomadas, como Porto Seguro, FIA, Ultragaz, Ultracargo, Mahindra, Softtek, entre outras. Este portfólio é um espaço onde apresento meus principais projetos e talentos. Convido você a explorar meu trabalho e conhecer mais sobre minha trajetória profissional..</p>
 
                             <div class="btn-social">
                               <a href="#"><button><i class="fa-brands fa-linkedin"></i></button></a>
@@ -82,26 +81,30 @@
             </div>
         </section>
 
-        <section class="Especialidades">
+        <section class="especialidades" id="especialidades">
             <div class="interface">
-                <h2>Minhas <span>Especialidades</span></h2>
+                <h2 class="titulo">Minhas <span>Especialidades.</span></h2>
                 <div class="flex">
                     <div class="especialidades-box">
-                        <i class="fa-solid fa-square-code"></i>
-                        <h3>Front-end</h3>
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Website</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, excepturi odit. Reiciendis dignissimos perferendis numquam explicabo, vero, officia dolore perspiciatis amet eum officiis ea voluptatem sit vitae sunt delectus. Molestiae?</p>
                     </div>
                     <div class="especialidades-box">
-                        <i class="fa-solid fa-square-code"></i>
-                        <h3>Mobile</h3>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <h3>Ecommerce</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, excepturi odit. Reiciendis dignissimos perferendis numquam explicabo, vero, officia dolore perspiciatis amet eum officiis ea voluptatem sit vitae sunt delectus. Molestiae?</p>
                     </div>
+                    <div class="especialidades-box">
+                        <i class="fa-solid fa-mobile"></i>
+                        <h3>Mobile</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, excepturi odit. Reiciendis dignissimos perferendis numquam explicabo, vero, officia dolore perspiciatis amet eum officiis ea voluptatem sit vitae sunt delectus. Molestiae?</p>
                     </div>
                 </section>
 
                     <section class="hardskills">
                         <div class="interface">
-                            <h2>Hard <span>Skills</span></h2>
+                            <h2 class="titulo">Hard <span>Skills</span></h2>
                             <div class="flex">
                     <div class="tecnologias">
                         
@@ -114,17 +117,147 @@
             </div>
         </section>
 
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             <div class="interface">
-                <h2>Projetos</h2>
+                <h2 class="titulo"> Meus <span>Projetos</span></h2>
                 <div class="flex">
-                    <div class="cards-projetos">
-                        <div class="card"></div>
-                        <div class="card"></div>
-                        <div class="card"></div>
-                        <div class="card"></div>
+                    <div class="container-cards">
+                        <div class="card">
+                            <img src="./assets/Imagens Projetos/Landing page do Spider-Man.png" alt="">
+                            <h1>Landing page Spider-man</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ullam quisquam modi quo iusto? Fugiat amet enim obcaecati ea, cupiditate alias dolores magni, assumenda temporibus, blanditiis eius perferendis commodi molestiae.</p>
+
+                            <div class="tec">
+                                <img src="./assets/Imagens logo/html-1.svg" alt="">
+                                <img src="./assets/Imagens logo/css-3.svg" alt="">
+                                <img src="./assets/Imagens logo/javascript-1.svg" alt="">
+                            </div>
+
+                            <div class="button">
+                                <a href="https://github.com/WillMaac/Piano-Virtual" target="_blank"><button>Código<i class="fa-brands fa-github"></i></button></a>
+                                <a href=""><button>Previa <i class="fa-solid fa-arrow-right"></i></button></a>
+                                </div>
+                        </div>
+                        
+                        <div class="card"><img src="./assets/Imagens Projetos/Landing page do Mundo invertido.png" alt="">
+                            <h1>Landing page Mundo Invertido</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam illum dignissimos quod beatae ratione fugit distinctio, cumque impedit placeat! Ipsa, quo ipsam? Voluptatum cum quis maxime odit eum distinctio consectetur.</p>
+
+                            <div class="tec">
+                                <img src="./assets/Imagens logo/html-1.svg" alt="">
+                                <img src="./assets/Imagens logo/css-3.svg" alt="">
+                                <img src="./assets/Imagens logo/javascript-1.svg" alt="">
+                            </div>
+
+                            <div class="button">
+                                <a href="https://github.com/WillMaac/Piano-Virtual" target="_blank"><button>Código<i class="fa-brands fa-github"></i></button></a>
+                                <a href=""><button>Previa <i class="fa-solid fa-arrow-right"></i></button></a>
+                                </div>
+                        </div>
+                        <div class="card"><img src="./assets/Imagens Projetos/Piano.png" alt="">
+                            <h1>Piano Virtual</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, doloremque expedita! Aliquam minima error nulla excepturi id dolore animi eos porro nemo, corrupti ipsa voluptatum, maiores ab! Facilis, fugit distinctio!</p>
+
+                            <div class="tec">
+                                <img src="./assets/Imagens logo/html-1.svg" alt="">
+                                <img src="./assets/Imagens logo/css-3.svg" alt="">
+                                <img src="./assets/Imagens logo/javascript-1.svg" alt="">
+                            </div>
+
+                            <div class="button">
+                                <a href="https://github.com/WillMaac/Piano-Virtual" target="_blank"><button>Código<i class="fa-brands fa-github"></i></button></a>
+                                <a href=""><button>Previa <i class="fa-solid fa-arrow-right"></i></button></a>
+                                </div>
+                        </div>
+                        <div class="card"><img src="./assets/Imagens Projetos/Sem título.png" alt=""> 
+                            <h1>Jogo do Detona Ralph</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque repellendus consequatur ducimus nemo suscipit hic et soluta perferendis. Voluptatum, magnam dolorum qui tempore at eos! Repudiandae rem asperiores est ea?</p>
+
+                            <div class="tec">
+                                <img src="./assets/Imagens logo/html-1.svg" alt="">
+                                <img src="./assets/Imagens logo/css-3.svg" alt="">
+                                <img src="./assets/Imagens logo/javascript-1.svg" alt="">
+                            </div>
+
+                            <div class="button">
+                                <a href="https://github.com/WillMaac/Piano-Virtual" target="_blank"><button>Código<i class="fa-brands fa-github"></i></button></a>
+                                <a href=""><button>Previa <i class="fa-solid fa-arrow-right"></i></button></a>
+                                </div>
+                        </div>
+                    <div class="card"><img src="./assets/Imagens Projetos/Sem título.png" alt=""> 
+                        <h1>Jogo do Detona Ralph</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illo veniam consequatur dolor quos incidunt suscipit, voluptas vitae placeat necessitatibus porro asperiores error reprehenderit debitis, id at esse accusamus provident.</p>
+                        <div class="tec">
+                            <img src="./assets/Imagens logo/html-1.svg" alt="">
+                            <img src="./assets/Imagens logo/css-3.svg" alt="">
+                            <img src="./assets/Imagens logo/javascript-1.svg" alt="">
+                        </div>
+
+                        <div class="button">
+                            <a href="https://github.com/WillMaac/Piano-Virtual" target="_blank"><button>Código<i class="fa-brands fa-github"></i></button></a>
+                            <a href=""><button>Previa <i class="fa-solid fa-arrow-right"></i></button></a>
+                            </div>
+                    </div>
+                <div class="card"><img src="./assets/Imagens Projetos/Sem título.png" alt=""> 
+                    <h1>Jogo do Detona Ralph</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatum ea minus aperiam quod non perspiciatis. Quos perferendis quasi unde odit dolor repudiandae esse? Doloribus eveniet accusamus impedit deleniti voluptatibus!</p>
+
+                    <div class="tec">
+                        <img src="./assets/Imagens logo/html-1.svg" alt="">
+                        <img src="./assets/Imagens logo/css-3.svg" alt="">
+                        <img src="./assets/Imagens logo/javascript-1.svg" alt="">
+                    </div>
+
+                    <div class="button">
+                        <a href="https://github.com/WillMaac/Piano-Virtual" target="_blank"><button>Código<i class="fa-brands fa-github"></i></button></a>
+                        <a href=""><button>Previa <i class="fa-solid fa-arrow-right"></i></button></a>
+                        </div>
+                </div>
+                    
+            
                     </div>
                 </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <div class="interface">
+                <h2 class="titulo">Entre em <span>contato</span></h2>
+                <form action="">
+<input type="text" name="" id="" placeholder="Seu nome completo:" required>
+<input type="email" name="" id="" placeholder="Seu e-mail:" required>
+<textarea name="" id="" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+<div class="btn-enviar">
+    <input type="submit" value="ENVIAR">
+</div>
+
+
+                </form>
+                 <!---   <div class="container-formulario"> 
+                            <h2 class="titulo-form">Entre em <span>contato</span></h2>
+                            <h3>Envie <span>uma mensagem</span></h3>
+                        <div class="form">
+                            <form action="http://localhost:5501/enviar-email" method="Post">
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                                <label for="mensagem">Mensagem:</label>
+                                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+                                <button type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+            <div>
+            <p class="footer">© 2024 Anderson De Jesus. Todos os direitos reservados.</p></div> -->
+        </section>
+        </section>
+
+        <section class="footer">
+
+        </section>
     </main>
 </body>
 </html>
